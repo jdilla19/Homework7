@@ -86,6 +86,13 @@ box-shadow: 0px 4px 4px 0px #372D23;
 padding: 12px 38px;
 }
 
+button:hover {
+    color: #db3eb1;
+    background-color: black;
+    filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+    border: none;
+  }
+
 
 
 /* section2 */
@@ -240,3 +247,10 @@ text-align: center;
     color: #FCC21B;
     font-size: 20px;  
 }
+
+
+
+
+
+
+
