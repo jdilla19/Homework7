@@ -86,3 +86,56 @@ box-shadow: 0px 4px 4px 0px #372D23;
 padding: 12px 38px;
 }
 
+
+
+/* section2 */
+
+.section2{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    padding: 80px 80px;
+    
+}
+
+.card_container {
+    width: 400px;
+    height: 320px;
+    position: relative;
+
+}
+
+.card_img {
+    width: 100%;
+    height: 100%;
+     object-fit: cover;  
+}
+
+.card_content{
+    background-color: rgba(55, 45, 35, 0.8);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    backdrop-filter: blur(2px);
+}
+
+h6{
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+}
+
+
+/* article */
+
+
+
+
